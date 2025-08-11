@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="../CSS/subscribe.css" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="subscription-container">
+        <div class="subscription-content">
+            <h1>Subscribe to Our Content</h1>
+            <p>Get exclusive access to premium content, early updates, and special offers.</p>
+        </div>
+        <form class="subscription-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="content-type">Preferred Content Type:</label>
+            <select id="content-type" name="content-type">
+                <option value="vlogs">Vlogs</option>
+                <option value="Parody">Parody</option>
+                <option value="Commercial">Commercial</option>
+            </select>
+            
+            <label class="checkbox-container">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Subscribe to our Newsletter
+            </label>
+            
+            <div class="payment-plan">
+                <p>Select Payment Plan:</p>
+                <label>
+                    <input type="radio" name="plan" value="free" checked> Free
+                </label>
+                <label>
+                    <input type="radio" name="plan" value="premium"> Premium
+                </label>
+                <label>
+                    <input type="radio" name="plan" value="vip"> VIP
+                </label>
+            </div>
+            
+            <button type="submit">Subscribe Now</button>
+        </form>
+    </section>
+
+</body>
+</html>

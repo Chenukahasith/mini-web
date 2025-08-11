@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/designed_art_black_background_hd_black-1600x900.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.subscription-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.subscription-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.subscription-form input, 
+.subscription-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.checkbox-container input {
+    margin-right: 10px;
+}
+.payment-plan p {
+    margin: 10px 0;
+}
+.payment-plan label {
+    display: block;
+    margin: 5px 0;
+}
+.subscription-form button {
+    background: #3131d5;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.subscription-form button:hover {
+    background: #330cb1;
+}
+input:checked + label {
+    font-weight: bold;
+    color: #3914b0;
+}
+
