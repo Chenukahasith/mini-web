@@ -1,2 +1,2 @@
 # mini-web
-Min web site
+Mini web site
